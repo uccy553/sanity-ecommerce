@@ -7,7 +7,7 @@ const Banner = ({banner : {image, buttonText, smallText, largeText1}}) => {
     <div>
       <img src={urlFor(image)} alt="banner-image" className='banner-image' />
     <div className='text-block'>
-      <p>{" "}</p>
+      <p>{smallText}</p>
       <h2 className='large-text'>{largeText1}</h2>
       <Link href={"/Shop"}>
         <button className='btn-banner'>{buttonText}</button>
