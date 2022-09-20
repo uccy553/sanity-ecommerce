@@ -575,7 +575,7 @@ nav{
 
 .quantity-desc1 span {
   font-size: 16px;
-  padding: 3px 6px;
+  padding: 3px 5px;
   cursor: pointer;
 }
 
@@ -599,7 +599,10 @@ nav{
 
 .quantity-desc1 .plus{
   color: rgb(49, 168, 49);
+}
 
+.quantity-desc1 .plus1{
+  color: rgb(49, 168, 49);
 }
 
 .quantity-desc{
