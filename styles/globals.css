@@ -943,6 +943,7 @@ padding: 6px;
   justify-content: center;
   align-items: center;
   height: 30vh;
+  width: 100%;
  }
 
  .form {
