@@ -1055,11 +1055,15 @@ footer .copyright {
  animation: effect 5s infinite;
 }
 
+.contact-p {
+  margin-top: 3px;
+}
+
 .contact-details{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px;
+  margin: 40px;
 }
 
 .contact-details .details{
@@ -1076,27 +1080,21 @@ footer .copyright {
   font-size: 16px;
   padding-bottom: 15px;
   line-height: 20px;
+  
 }
 
 .contact-details .details a {
   list-style: none;
   display: flex;
   padding: 10px 0;
+  font-size: 14px;
 }
 
-.contact-details .details a{
-  font-size: 14px;
-  padding-right: 22px;
-}
 
 .details {
   line-height: 10px;
 }
 
-.contact-details .details a{
-  margin: 0;
-  font-size: 14px;
-}
 
 .contact-details .map{
   width: 55%;
