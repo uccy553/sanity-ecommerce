@@ -571,12 +571,12 @@ nav{
 
 .quantity-desc1 {
   border: 1px solid gray;
-  padding: 6px;
+  width: fit-content;
 }
 
 .quantity-desc1 span {
   font-size: 16px;
-  padding: 3px 5px;
+  padding: 5px 10px;
   cursor: pointer;
 }
 
