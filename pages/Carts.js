@@ -48,9 +48,9 @@ const Carts = () => {
 
                     <TableCell align='right' className='quantity1' style={{width: '180px'}}>
                       <p className='quantity-desc1'>
-                      <span className='minus' onClick={() => toggleCartItemQuantity(item._id, 'dec')}><RemoveIcon /></span>
-                      <span className='num' onClick="">{item.quantity}</span>
-                      <span className='plus' onClick={() => toggleCartItemQuantity(item._id, 'inc')}><AddIcon /></span>
+                      <span className='minus1' onClick={() => toggleCartItemQuantity(item._id, 'dec')}><RemoveIcon /></span>
+                      <span className='num1' onClick="">{item.quantity}</span>
+                      <span className='plus1' onClick={() => toggleCartItemQuantity(item._id, 'inc')}><AddIcon /></span>
                       </p>
                      
                     </TableCell>
