@@ -17,29 +17,28 @@ const Contact = () => {
       </div>
       <div className="contact-details">
         <div className="details">
-          <span style={{textTransform: "uppercase", fontSize: "15px"}}>Get in Touch</span>
-          <h2 style={{fontSize: "20px"}}>Visit one of our agencies location or contact us today</h2>
+          <h2>Visit one of our agencies location or contact us today</h2>
           <h3>Head Office</h3>
           <div>
-            <a href="#">
-              <LocationOnIcon className="icon" />
-              <p className="contact-p">562 Ojota Road, street 23, Lagos</p>
-            </a>
+            <div className="ic">
+                <LocationOnIcon className="icon" />
+                <p>562 Ojota Road, street 23, Lagos</p>
+            </div>
 
-            <a href="#">
+          <div className="ic">
               <EmailIcon className="icon"/>
-              <p className="contact-p">sample@email.com</p>
-            </a>
-
-            <a href="#">
+              <p>sample@email.com</p>
+          </div>
+          
+          <div className="ic">
               <LocalPhoneIcon className="icon"/>
-              <p className="contact-p">+2348034847764 / +2349037464636</p>
-            </a>
+              <p>+2348034847764 / +2349037464636</p>
+          </div>
 
-            <a href="#">
+          <div className="ic">
               <WatchLaterIcon className="icon"/>
-              <p className="contact-p">Monday to Saturday 9am - 18:00</p>
-            </a>
+              <p>Monday to Saturday 9am - 18:00</p>
+          </div>
           </div>
         </div>
 
