@@ -314,11 +314,41 @@ nav{
    transform: scale(1.1,1.1)
  }
 
+  @media screen and (max-width: 700px) {
+  .quantity-desc1 {
+    width: 50%;
+    margin-left: 50px;
+  }
+  
+ }
 
  @media screen and (max-width: 500px) {
   .product-detail-container {
     display: flex;
     flex-direction: column;
+  }
+   
+  .quantity-desc{
+    border: 1px solid gray;
+    padding: 4px;
+  
+  }
+  .quantity-desc1{
+    border: 1px solid gray;
+    padding: 4px;
+  
+  }
+  .quantity-desc span{
+    font-size: 10px;
+    padding: 6px 9px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .quantity-desc1 span{
+    font-size: 10px;
+    padding: 6px 9px;
+    cursor: pointer;
+    width: 100%;
   }
 
  .image-container {
@@ -541,6 +571,32 @@ nav{
 .product-detail-desc .buttons{
   display: flex;
   gap: 30px;
+}
+
+.quantity-desc1 {
+  border: 1px solid gray;
+  padding: 6px;
+}
+
+.quantity-desc1 span {
+  font-size: 16px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.quantity-desc1 .minus{
+  border-right: 1px solid gray;
+  color: #f02d34;
+}
+
+.quantity-desc1 .num{
+  border-right: 1px solid gray;
+  font-size: 20px;
+}
+
+.quantity-desc1 .plus{
+  color: rgb(49, 168, 49);
+
 }
 
 .quantity-desc{
