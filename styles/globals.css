@@ -316,7 +316,8 @@ nav{
 
 @media screen and (max-width: 700px) {
   .quantity-desc {
-    width: 60%;
+    width: 50%;
+    margin-left: 50px;
   }
   
 }
