@@ -1575,6 +1575,55 @@ margin-bottom: 50px;
   background-color: #5c0558;
 }
 
+@media screen and (min-width: 2000px) {
+  .sm-banner {
+    margin: 300px;
+  }
+ }
+ 
+ @media screen and (min-width: 1600px) {
+  .sm-banner {
+    margin: 150px;
+  }
+
+  .banner-box {
+    line-height: 50px;
+  }
+
+  .banner-box span {
+    font-size: 1.5em !important;
+  }
+
+  .banner-box h4 {
+    font-size: 1.5em !important;
+  }
+
+  .text-block { 
+    bottom: 400px !important;
+  }
+
+  .text-block h2 {
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 1.5em !important;
+  }
+
+  a {
+    font-size: 1.5em !important;
+  }
+
+  p {
+    font-size: 1.5em !important;
+  }
+
+  footer {
+   justify-content: space-between;
+   
+  }
+ }
+
 
 
 
