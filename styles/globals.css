@@ -1574,9 +1574,4 @@ margin-bottom: 50px;
   background-color: #5c0558;
 }
 
-@media (prefers-color-scheme: dark) {
-  p h1 h2 h3 h4 h5 h6 {color: #fff;}
-  
-  nav {background-color: #000;}
-  
-}
+
