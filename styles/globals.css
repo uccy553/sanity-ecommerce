@@ -42,12 +42,9 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+
   body {
-    color: white;
-    background: black;
+    background: white;
   }
 }
 
@@ -1577,5 +1574,7 @@ margin-bottom: 50px;
 .btn:hover {
   background-color: #5c0558;
 }
+
+
 
 
