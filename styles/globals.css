@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body { background-color: #fff;}
+:root {
+  color-scheme: only light;
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #fff;
   font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
