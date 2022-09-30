@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
 
         <div className='copyright'>
-            <p>© All rights reserved, Created by Uccy</p>
+            <p>© All rights reserved, Created by Uche.</p>
         </div>
 
 
